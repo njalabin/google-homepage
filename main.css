@@ -1,4 +1,6 @@
-
+a {
+    text-decoration: none;
+}
 
 .google-logo {
     display: block;
@@ -22,7 +24,6 @@
     display: block;
     padding: 6px;
     color: black;
-    text-decoration: none;
 }
 
 .nav-upper-right {
@@ -36,10 +37,9 @@
     display: block;
     padding: 6px;
     color: black;
-    text-decoration: none;
 }
 
-.main-block {
-    display: inline-block;
-    margin: auto;
+.center-block {
+    text-align: center;
+    padding: 20px;
 }
