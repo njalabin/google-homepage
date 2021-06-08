@@ -4,3 +4,18 @@
     display: block;
     margin: auto;
 }
+
+.nav-upper-left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #dddddd;
+}
+
+.left-one a {
+    float: left;
+    display: block;
+    padding: 6px;
+    background-color: #dddddd;
+}
