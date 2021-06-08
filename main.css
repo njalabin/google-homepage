@@ -1,5 +1,7 @@
-a {
+a, li {
     text-decoration: none;
+    list-style-type: none;
+    color: black;
 }
 
 .google-logo {
@@ -14,7 +16,6 @@ a {
 }
 
 .nav-upper-left {
-    list-style-type: none;
     margin-left: 15px;
     padding: 0;
 }
@@ -23,11 +24,9 @@ a {
     float: left;
     display: block;
     padding: 6px;
-    color: black;
 }
 
 .nav-upper-right {
-    list-style-type: none;
     margin-right: 15px;
     padding: 0;
 }
@@ -36,10 +35,31 @@ a {
     float: right;
     display: block;
     padding: 6px;
-    color: black;
 }
 
 .center-block {
     text-align: center;
     padding: 20px;
+}
+
+.foot-container {
+    position: relative;
+    min-height: 40vh;
+}
+
+.foot-wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer-inline {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
