@@ -64,6 +64,6 @@ footer {
     flex-wrap: wrap;
 }
 
-a[href="#"] {
+#language-select {
     color: blue;
 }
