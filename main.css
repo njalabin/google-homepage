@@ -63,3 +63,7 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+a[href="#"] {
+    color: blue;
+}
