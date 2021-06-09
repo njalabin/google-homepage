@@ -33,3 +33,12 @@ li, a {
 .left-box, .right-box {
     padding: 20px;
 }
+
+#logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
