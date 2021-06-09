@@ -1,69 +1,35 @@
-a, li {
+/* css with flexbox */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     text-decoration: none;
     list-style-type: none;
     color: black;
 }
 
-.google-logo {
-    display: block;
-    margin: auto;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.logo-space {
-    padding-top: 240px;
-}
-
-.nav-upper-left {
-    margin-left: 15px;
-    padding: 0;
-}
-
-.left-one a {
-    float: left;
-    display: block;
-    padding: 6px;
-}
-
-.nav-upper-right {
-    margin-right: 15px;
-    padding: 0;
-}
-
-.right-one a {
-    float: right;
-    display: block;
-    padding: 6px;
-}
-
-.center-block {
-    text-align: center;
-    padding: 20px;
-}
-
-.foot-container {
-    position: relative;
-    min-height: 40vh;
-}
-
-.foot-wrap {
-    padding-bottom: 2.5rem;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-}
-
-.footer-inline {
+#box-container-main {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
-#language-select {
-    color: blue;
+#box-container-one {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#box-container-two {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.left-box, .right-box {
+    padding: 20px;
 }
