@@ -9,6 +9,7 @@
 li, a {
     list-style-type: none;
     text-decoration: none;
+    color: #222;
 }
 
 nav {
@@ -56,14 +57,10 @@ nav ul#nav-right li button {
     padding-top: 50px;
 }
 
-div img.logo-main {
-
-}
-
 div.search-box {
     position: relative;
-    width: 50%;
-    margin-top: 20px;
+    width: 32%;
+    margin-top: 30px;
 }
 
 div.search-box .search {
@@ -89,13 +86,13 @@ div.icons {
 }
 
 div.buttons {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 div.buttons button {
     margin: 0 5px;
     padding: 12px 20px;
-    color: #555;
+    color: rgba(0,0,0,.54);
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid transparent;
@@ -106,7 +103,41 @@ div.language {
     margin-top: 30px;
 }
 
+div.language a {
+    color: blue;
+}
 
+footer.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
 
+}
 
+footer .row-one {
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0,0,0,0.01);
+}
 
+footer .row-two {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0,0,0,0.10);
+}
+
+footer .row-two ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .row-two ul li {
+    margin-right: 25px;
+    padding: 15px 25px;
+}
+
+footer .row-two ul li a {
+    color: rgba(0,0,0,.54);
+}
